@@ -17,20 +17,20 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // used for books api (register my own)
-        applicationId "com.criticalblue.auth.demo"
+        applicationId "com.prince.auth.demo"
 
         // Used to identify activity handling the redirect
-        manifestPlaceholders = [
-                //'appAuthRedirectScheme': "com.googleusercontent.apps.708887469285-c07sqh3rgg9ke8tho0hgbfb79sde7394"
-                'appAuthRedirectScheme': ''
-        ]
+//        manifestPlaceholders = [
+//                //'appAuthRedirectScheme': "com.googleusercontent.apps.708887469285-c07sqh3rgg9ke8tho0hgbfb79sde7394"
+//                'appAuthRedirectScheme': ''
+//        ]
     }
 
     compileOptions {
@@ -40,10 +40,10 @@ android {
 
     signingConfigs {
         secret {
-            storeFile file("${rootDir}/secret.keystore")
-            storePassword "secret"
-            keyAlias "secret"
-            keyPassword "secret"
+            storeFile file("${rootDir}/gbook.keystore")
+            storePassword "PrinCe22/10"
+            keyAlias "gbook"
+            keyPassword "PrinCe22/10"
         }
     }
 

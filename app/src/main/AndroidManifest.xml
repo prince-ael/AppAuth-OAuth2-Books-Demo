@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.criticalblue.auth.demo">
+    package="com.prince.auth.demo">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -30,7 +30,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="com.googleusercontent.apps.708887469285-c07sqh3rgg9ke8tho0hgbfb79sde7394"/>
+                <data android:scheme="com.googleusercontent.apps.867898435476-mmcpfn7l8bigkriorie6i5qc9vrqvbne"/>
                 <!--<data android:scheme="https"
                     android:host="android.example.com"
                     android:path="/oauth2redirect"/>-->
